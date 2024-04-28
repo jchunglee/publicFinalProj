@@ -1,0 +1,47 @@
+/* EditPost.css */
+
+/* Container styling */
+.edit-post-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Form input styling */
+.edit-post-container input[type="text"],
+.edit-post-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit button styling */
+.edit-post-container input[type="submit"],
+.edit-post-container button.deleteButton {
+    width: 100%; /* Make button full width */
+    padding: 10px 20px;
+    margin-top: 10px; /* Add margin to the top */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #28a745; /* Green */
+    color: #fff;
+    transition: background-color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.edit-post-container input[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Comments section styling */
+.edit-post-container h2 {
+    margin-top: 20px;
+    color: white; /* Set h2 color to white */
+}
+
+/* Set label color to white */
+.edit-post-container label {
+    color: white;
+}

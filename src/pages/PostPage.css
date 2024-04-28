@@ -1,0 +1,77 @@
+.PostPage {
+  max-width: 1000px; /* Set the maximum width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 40px; /* Add padding around the content */
+  border: 1px solid #ccc; /* Add a gray border */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
+}
+
+.PostPage button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.PostPage button.editButton {
+  background-color: #4939bf; /* Green */
+  transition: background-color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.PostPage button.editButton:hover {
+  background-color: #190d76;
+}
+
+.PostPage button.deleteButton {
+  background-color: #dc3545; /* Red */
+  transition: background-color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.PostPage button.deleteButton:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.content {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.imageUrl {
+  max-width: 80%; 
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.upvotes {
+  background-color: #4CAF50;
+  color: white; 
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.upvotes:hover {
+  background-color: #45a049;
+}
+
+.PostPage h2,
+.PostPage h3,
+.PostPage p {
+  color: white; /* Set text color to white */
+}

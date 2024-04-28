@@ -1,0 +1,33 @@
+.Card {
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(153, 153, 153, 0.497);
+  border-radius: 20px;
+  padding: 50px; /* Adjust padding as needed */
+  text-align: center;
+  position: relative; 
+  
+}
+
+.Card h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.Card h3 {
+  font-size: 20px;
+  color: white;
+}
+.upvotes {
+  font-size: 16px;
+  color: white;
+  background-color: #218838;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.upvotes:hover {
+  background-color: #1e7e34;
+}
