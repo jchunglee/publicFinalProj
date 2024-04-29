@@ -1,0 +1,64 @@
+.create-post-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.create-post-container input[type="text"],
+.create-post-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-post-container .button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.create-post-container input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #28a745; /* Green */
+  color: #fff;
+  transition: background-color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.create-post-container input[type="submit"]:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.create-post-container h2 {
+  margin-top: 20px;
+  color: white;
+}
+
+.create-post-container label {
+  color: white;
+}
+
+/* Style the file input */
+input[type="file"] {
+  display: none; /* Hide the original file input */
+}
+
+.custom-file-input {
+  display: inline-block;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #6d6e6f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-input:hover {
+  background-color: #3a3a3b;
+}
